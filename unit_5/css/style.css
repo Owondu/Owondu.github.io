@@ -1,26 +1,25 @@
 @import url('https://fonts.googleapis.com/css?family=Righteous');   
 
-body,
-html {
-	min-height: 100%;
-}
 
 body {
-	background-image:url(../images/pink.jpg);
+	
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 
 header{
+	background-image:url(../images/pink.jpg);
 	background-color: #FFED74;
 	border: 1px black solid;
 	padding: 20px;
+	height: 200px;
 }
 
 nav{
 	background-color: #E8C66A;
 	border: 1px black solid;
 	padding: 20px;
+	display: block;
 }
 
 #About{
