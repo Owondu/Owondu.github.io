@@ -72,14 +72,19 @@ header{
 
 #About{
 	background-color: #FFE2B8;
-	border: 1px black solid;
 	padding: 20px;
+	text-align: center;
 }
 
 #work{
 	background-color: #FFE2B8;
 	border: 1px black solid;
 	padding: 20px; 
+	height: 50vh;
+	width: 65%;
+	position: relative;
+	right: -200px;
+
 }
 
 .clearfix:after {
@@ -96,7 +101,8 @@ header{
    border: 1px black solid;
    padding: 20px; 
    float: left;
-   width: 30%;
+   width: 40%;
+   height: 70%;
 
 }
 
@@ -105,8 +111,8 @@ header{
    border: 1px black solid;
    padding: 20px; 
    float: right;
-   width: 62%;
-
+   width: 40%;
+   height: 70%;
 }
 
 footer{
