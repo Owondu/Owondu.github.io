@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Elsie:900|Quicksand');
 
 
-
 body {
     padding: 0;
 	margin: 0;
@@ -9,19 +8,21 @@ body {
 	display:block;
 	background-color: #F1E5E3;
 	font-family: inherit;
+	height: 100vh;
+	font-size: 16px;
 
 }
 
 p{
     position: absolute;
-	right:240px;
-	top: 70%;
+	right:20%;
+	top: 60%;
 	float: left;
-	font-size: 20px;
+	font-size: 130%;
 }
 	
 nav{
-	font-size: 20px;
+	font-size: 150%;
 	float: left;
 	height: 10vh;
 	background-color: rgba(128, 0, 0,.2);
@@ -39,24 +40,26 @@ nav a{
 }
 
 header{
-	height: 80vh;
-	width: 100%;
-	padding: 20px;
+    height: 80vh;
+	width: 93%;
+	padding: 5%;
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-image: url(../images/eye.jpg)
+	background-image: url(../images/eye.jpg);
 }
+
+
 
 
 .title{
     position: absolute;
-	right:100px;
-	top: 300px;
+	right:10%;
+	top: 47%;
 	float: left;
-	font-size: 70px;
-	letter-spacing: 3px;
+	font-size: 400%;
+	letter-spacing: 3%;
 	font-family: 'Elsie', cursive;
-	line-height: 5px;
+	line-height: 4%;
 
 }
 
@@ -66,24 +69,19 @@ header{
 
 #AboutMe{
 	position: absolute;
-	top: 550px;
+	top: 105%;
 	right: 50%;
 
      
 }
 
-#Wrapper{
-	padding: 0px;
-	margin:0px;
-}
-
 #About{
 	background-color: #ECCCC8;
-	padding: 20px;
+	padding: 2%;
 	text-align: center;
 	height: 20vh;
 	border: 1px black solid;
-	width: 100%;
+	width: 99%;
 }
 
 #work{
@@ -98,7 +96,6 @@ header{
 
 .clearfix:after {
     visibility: hidden;
-    display: block;
     font-size: 0;
     content: " ";
     clear: both;
@@ -107,8 +104,6 @@ header{
 
 #UX{
    background-color: pink;
-   border-left: 5px black solid;
-   border-right: 5px black solid;
    padding: 20px; 
    float: left;
    width: 40%;
@@ -120,8 +115,6 @@ header{
 
 #WebDesign{
    background-color: pink;
-   border-left: 5px black solid;
-   border-right: 5px black solid;
    padding: 20px; 
    float: right;
    width: 43%;
@@ -139,6 +132,16 @@ footer{
 }
 
 
-
-
-
+@media only screen and (max-width: 800px) {
+   nav{
+   	float: none;
+   }
+h1, nav {
+     display: block;
+     text-align: center;
+   }
+ nav a {
+      margin: 0 1.6em .75em 0;
+  }
+ 
+}
