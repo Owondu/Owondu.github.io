@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Cinzel');
+@import url('https://fonts.googleapis.com/css?family=Cinzel|Lobster|Sanchez');
 
 
 body {
@@ -6,18 +6,11 @@ body {
 	margin: 0;
 	border:0;
 	display:block;
-
-}
-
-p{
-    position: absolute;
-	right:240px;
-	top: 70%;
-	float: left;
-	font-size: 20px;
-}
+	background-color: #F1E5E3;
+	font-family: Sanchez;
 	
 
+}
 
 nav{
 	font-size: 20px;
@@ -29,6 +22,7 @@ nav{
 	padding: 0px;
 	margin: 0px;
 	display: block;
+	position: fixed;
 }
 
 nav a{
@@ -39,7 +33,7 @@ nav a{
 
 header{
 	height: 80vh;
-	width: 100%;
+	width: 97%;
 	padding: 20px;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -57,12 +51,26 @@ header{
 	font-family: 'Cinzel', serif;
 }
 
-#Slogan{
-
+#slogan{
+    position: absolute;
+	right:240px;
+	top: 70%;
+	float: left;
+	font-size: 20px;
 }
 
 #AboutMe{
+position: relative;
+top: -5px;
+padding: 0;
+}
 
+
+
+.hi{
+	font-family: Lobster;
+	font-size: 40px;
+    padding: 10px;
 }
 
 #Wrapper{
@@ -71,15 +79,20 @@ header{
 }
 
 #About{
-	background-color: #FFE2B8;
-	border: 1px black solid;
-	padding: 20px;
+	background-color: #ECCCC8;
+	padding: 1%;
+	text-align: center;
+	line-height: 10px;
+	
 }
 
 #work{
-	background-color: #FFE2B8;
-	border: 1px black solid;
+	background-color: #F1E5E3;
 	padding: 20px; 
+	height: 45vh;
+	width: 65%;
+	right: -170px;
+	position: relative;
 }
 
 .clearfix:after {
@@ -92,28 +105,30 @@ header{
 }
 
 #UX{
-   background-color: violet;
-   border: 1px black solid;
+   background-color: pink;
    padding: 20px; 
    float: left;
-   width: 30%;
+   width: 40%;
+   text-align: center;
+   height: 30vh;
 
 }
 
 #WebDesign{
    background-color: pink;
-   border: 1px black solid;
    padding: 20px; 
    float: right;
-   width: 62%;
+   width: 40%;
+   text-align: center;
+   height: 30vh;
 
 }
 
 footer{
-	background-color: #FF957E;
-	border: 1px black solid;
-    padding: 20px; 
+	background-color: white;
+    padding: 40px; 
     margin:0;
+    text-align: center;
 }
 
 
